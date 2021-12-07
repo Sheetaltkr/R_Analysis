@@ -4,7 +4,7 @@
 
 #### MechaCar linear regression output:
 
-![MechaCar_mpg](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/MechaCar_mpg.png)
+![MechaCar_mpg](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/MechaCar_mpg1.png)
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
