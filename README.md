@@ -20,3 +20,21 @@ The  **p-value** of our linear regression analysis is **5.35e-11**, which is muc
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Yes, the linear model has high probability predicting mpg values of MechaCar prototypes. The **r-squared (r2)** value - 0.7149.
 The **r-squared (r2)** value is also known as the coefficient of determination and represents how well the regression model approximates real-world data points.
+
+## Summary Statistics on Suspension Coils
+
+and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+
+Total Summary:
+
+![total_summary](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/total_summary.png)
+
+Lotwise Summary:
+
+![lot_summary](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/lot_summary.png)
+
+#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+Yes, the manufacturing data does meet this design specification for all manufacturing lots in total.As per the total summary of the PSI design specification has the **variance** is 62.3 which is < 100. 
+
+Individually, lot 1 and lot 2 meet the design specifications as they have the variance on PSI as 1 and 7.5 respectively. However, lot 3 does not meet the design specification due to variance of 170 which > 100. 
