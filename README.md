@@ -53,7 +53,7 @@ Ha : There is a statistical difference between the observed sample mean and its 
 
 **Conclusion:** Assuming our significance level was the common 0.05, our p-value (0.06028) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
-2.  **T-Test for each lot:**
+**T-Test for each lot:**
 
 ![t_test_lotwise](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/t_test_lotwise.png)
 
