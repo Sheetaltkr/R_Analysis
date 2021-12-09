@@ -42,6 +42,7 @@ Individually, lot 1 and lot 2 meet the design specifications as they have the va
 Applying the one-sample t-test to assess if there is a statistical difference between the mean of the sample dataset and the mean of the hypothesized, potential population dataset.
 
 H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+
 Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
 **T-Test for all lots:**
