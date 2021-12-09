@@ -23,8 +23,6 @@ The **r-squared (r2)** value is also known as the coefficient of determination a
 
 ## Summary Statistics on Suspension Coils
 
-and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-
 Total Summary:
 
 ![total_summary](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/total_summary.png)
@@ -62,17 +60,35 @@ Ha : There is a statistical difference between the observed sample mean and its 
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-Metrics for to testing:
+#### Assumptions:
+Class: Compact SUV class 
+DriveTrain: AWD
+
+
+#### Metrics for to testing:
 - Fuel efficiency(MPG)
 - Driving Experience Rating
 - Price
-- DriveTrain
-- Engine
 
-In your description, address the following questions:
+#### Hypothesis:
 
-What is the null hypothesis or alternative hypothesis?
+a) **Fuel efficiency(MPG)**
+H0: MPG for MechaCars > MPG for competitor A
+Ha: MPG for MechaCars <= MPG for competitor A
 
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+b) **Driving Experience Rating(DER)**
+H0: DER for MechaCars > MPG for competitor A
+Ha: DER for MechaCars <= MPG for competitor A
+
+c) **Price(PRC)**
+H0: PRC for MechaCars <= MPG for competitor A
+Ha: PRC for MechaCars > MPG for competitor A
+
+#### Statistical Test for Hypothesis
+Multiple 2 sample t-tests would be conducted to compare mean metric values of MechaCar against it's competitors for every metric listed as we need to compare the mean of sample data of 50 cars from each group.
+
+#### Data needed to run the statistical test
+Mean values for MPG, Price and Driving Experience rating for 50 Samples of MechaCar cars and competitors cars.
+
+
 
