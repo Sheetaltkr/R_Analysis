@@ -58,7 +58,9 @@ Ha : There is a statistical difference between the observed sample mean and its 
 **Conclusion:** Assuming our significance level was the common 0.05, our p-values for **Lot1** and **Lot2 (1 and 0.6071)** are above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. Whereas our p-value for **Lot3 (0.04168)** is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+#### Description:
+We are comparing Car performance metrics for a group of 50 MechaCar cars vs group of 50 CompetitorA cars with assumptions and metrics mentioned below.
 
 #### Assumptions:
 
