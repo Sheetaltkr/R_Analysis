@@ -61,7 +61,9 @@ Ha : There is a statistical difference between the observed sample mean and its 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 #### Assumptions:
-Class: Compact SUV class 
+
+Class: Compact SUV class
+
 DriveTrain: AWD
 
 
@@ -72,17 +74,23 @@ DriveTrain: AWD
 
 #### Hypothesis:
 
-a) **Fuel efficiency(MPG)**
+**Fuel efficiency(MPG)**
+
 H0: MPG for MechaCars > MPG for competitor A
+
 Ha: MPG for MechaCars <= MPG for competitor A
 
-b) **Driving Experience Rating(DER)**
-H0: DER for MechaCars > MPG for competitor A
-Ha: DER for MechaCars <= MPG for competitor A
+**Driving Experience Rating(DER)**
 
-c) **Price(PRC)**
-H0: PRC for MechaCars <= MPG for competitor A
-Ha: PRC for MechaCars > MPG for competitor A
+H0: DER for MechaCars > DER for competitor A
+
+Ha: DER for MechaCars <= DER for competitor A
+
+**Price(PRC)**
+
+H0: Price for MechaCars <= Price for competitor A
+
+Ha: Price for MechaCars > Price for competitor A
 
 #### Statistical Test for Hypothesis
 Multiple 2 sample t-tests would be conducted to compare mean metric values of MechaCar against it's competitors for every metric listed as we need to compare the mean of sample data of 50 cars from each group.
