@@ -73,9 +73,8 @@ We are comparing Car performance metrics for a group of 50 MechaCar cars vs grou
 
 #### Assumptions:
 
-Class: Compact SUV class
-
-DriveTrain: AWD
+- Class: Compact SUV class
+- DriveTrain: AWD
 
 
 #### Metrics for to testing:
