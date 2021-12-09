@@ -38,3 +38,24 @@ Lotwise Summary:
 Yes, the manufacturing data does meet this design specification for all manufacturing lots in total.As per the total summary of the PSI design specification has the **variance** is 62.3 which is < 100. 
 
 Individually, lot 1 and lot 2 meet the design specifications as they have the variance on PSI as 1 and 7.5 respectively. However, lot 3 does not meet the design specification due to variance of 170 which > 100. 
+
+## T-Tests on Suspension Coils
+
+Applying the one-sample t-test to assess if there is a statistical difference between the mean of the sample dataset and the mean of the hypothesized, potential population dataset.
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+
+**T-Test for all lots:**
+
+![t_test_all](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/t_test_all.png)
+
+
+**Conclusion:** Assuming our significance level was the common 0.05, our p-value (0.06028) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+2.  **T-Test for each lot:**
+
+![t_test_lotwise](https://github.com/Sheetaltkr/R_Analysis/blob/main/Resources/t_test_lotwise.png)
+
+**Conclusion:** Assuming our significance level was the common 0.05, our p-values for **Lot1** and **Lot2 (1 and 0.6071)** are above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. Whereas our p-value for **Lot3 (0.04168)** is below our significance level. Therefore, we do have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
+
