@@ -93,7 +93,7 @@ H0: Price for MechaCars <= Price for competitor A
 Ha: Price for MechaCars > Price for competitor A
 
 #### Statistical Test for Hypothesis
-Multiple 2 sample t-tests would be conducted to compare mean metric values of MechaCar against it's competitors for every metric listed as we need to compare the mean of sample data of 50 cars from each group.
+Multiple 2 sample t-tests would be conducted to compare mean metric values of MechaCar against it's competitors for every metric listed as we need to compare the mean of 2 sample groups.
 
 #### Data needed to run the statistical test
 Mean values for MPG, Price and Driving Experience rating for 50 Samples of MechaCar cars and competitors cars.
