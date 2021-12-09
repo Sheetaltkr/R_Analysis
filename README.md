@@ -1,5 +1,13 @@
 # R_Analysis
 
+### Resources
+R,R-dplyr,RStudio,Statistics
+
+**Datasets**
+MecharCar_mpg.csv
+Suspension_Coil.csv
+
+
 ## Linear Regression to Predict MPG
 
 #### MechaCar linear regression output:
